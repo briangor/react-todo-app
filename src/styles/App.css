@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap");
+body {
+  background-color: #F2F2B6;
+  padding: 5% 20% 10% 10%;
+  font-size: 20px;
+  font-family: 'Roboto Serif', sans-serif;
+}
+
+div {
+  color: black;
+}
+
+.title {
+  color: purple;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.input {
+  outline: none;
+  border: .5px solid silver;
+  width: 80.5%;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.input:focus {
+  border: .5px solid purple;
+}
+
+.add {
+  background-color: transparent;
+  border: .5px solid green;
+  color: green;
+  font-size: 14px;
+  cursor: pointer;
+  width: 20%;
+  min-height: 2.5em;
+  margin-right: 10px;
+}
+
+.add:hover {
+  border: 0.5px solid #06d806;
+  color: #06d806;
+}
+
+.clear {
+  background-color: transparent;
+  border: .5px solid maroon;
+  color: maroon;
+  font-size: 14px;
+  cursor: pointer;
+  width: 20%;
+  min-height: 2.5em;
+  overflow: hidden;
+}
+
+.clear:hover {
+  border: 0.5px solid #e60505;
+  color: #e60505;
+}
+
+.status-msg {
+  font-size: 15px;
+  color: purple;
+  margin-top: 5px;
+}
+
+.content {
+  border: 1px solid silver;
+  padding: 10%;
+  overflow: hidden;
+}
+/*# sourceMappingURL=App.css.map */
